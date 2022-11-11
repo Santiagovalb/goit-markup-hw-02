@@ -5,16 +5,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="css/style.css" />
 
   <title>goit-markup-hw-02</title>
 </head>
-
-
-
   <!-- Page header -->
 
-  <header>
+  <header class="header">
     <a href="index.html">WebStudio</a>
 
     <nav>
@@ -27,55 +24,52 @@
       </ul>
     </nav>
 
-    <ul>
+    <ul class="navbar">
       <li><a href="#info">info@devstudio.com</a></li>
       <li> <a href="#about">+52 55 5529 6000</a></li>
     </ul>
 
   </header>
-
-
-
   <!-- Unique page content -->
   <main>
     <!-- Features section -->
 
-    <section class="container">
+    <section class="banner-ppal">
 
 
-      <h1>SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+      <h1 class="text-ppal">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
 
-      <button type="button"> Solicite nuestro servicio</button>
+      <button type="button" class="btn-ppal"> Solicite nuestro servicio</button>
     </section>
 
-    <section>
+    <section class=" qualities">
 
       <br><br><br><br>
-      <div class="detalles">
+      <div class="qualities_item">
 
 
-        <h2>ATENCION A LOS DETALLES.</h2>
-        <p>
+        <h3 class="qualitie_title">ATENCION A LOS DETALLES.</h3>
+        <p class="qualitie_description">
           Nos adentramos en todos los detalles y procesos de su negocio, para así desarrollar una solución a su medida.
         </p>
-
-
-
-        <h2>PUNTUALIDAD</h2>
-        <p>
+        </div>
+        <div class="qualities_item">
+        <h3 class="qualitie_title">PUNTUALIDAD</h3>
+        <p class="qualitie_description">
           Con nosotros, usted puede sentirse seguro y protegido. Un principio importante de la empresa: respetar su
           tiempo y respetar los plazos acordados.
         </p>
-
-
-        <h2>PLANIFICACION</h2>
-        <p>
+</div>
+<div class="qualities_item">
+        <h3 class="qualitie_title">PLANIFICACION</h3>
+        <p class="qualitie_description">
           Usted podrá observar y participar en cada fase del desarrollo y aplicación de soluciones.
         </p>
 
-
-        <h2>TECNOLOGIA MODERNA</h2>
-        <p>
+        </div>
+        <div class="qualities_item">
+        <h3 class="qualitie_title">TECNOLOGIA MODERNA</h3>
+        <p class="qualitie_description">
 
           Usamos herramientas innovadoras para resolver las tareas asignadas. Es hora de simplificar los procesos
           laborales.
@@ -84,90 +78,67 @@
       </div>
 
     </section>
-
-
-
     <br><br><br><br>
-    <section>
-      <div class="dedicamos">
+    <section class="aboutus">
         <h2> A qué nos dedicamos </h2>
-      </div>
+      
       <br><br>
 
-      <div class="imagenes">
-        <ul>
+      <div class="aboutus-galery">
+        
 
-          <li> <img src="images/imagencaja.1.jpg" alt="Workplace in the company" width="320" /></li>
-          <li><img src="images/caja2caja.2.jpg" alt="Workplace in the company" width="320" /></li>
-          <li> <img src="images/imagen.caja3.jpg" alt="Workplace in the company" width="320" /></li>
+           <img src="images/imagencaja.1.jpg" alt="Workplace in the company" width="320" />
+          <img src="images/caja2caja.2.jpg" alt="Workplace in the company" width="320" />
+           <img src="images/imagen.caja3.jpg" alt="Workplace in the company" width="320" />
 
-
-
-        </ul>
+        
       </div>
-
     </section>
-
-
     <br><br><br>
-
-    <section>
+    <section class="team">
 
       <h2>Nuestro Equipo</h2>
 
       <ul>
 
-        <li> <img src="images/imagen.jpg" alt="" width="320" />
-          <h3>Andrés Cubo <br> Diseñador De Productos</h3>
+        <li> 
+          
+          <figure><img src="images/imagen.jpg" alt="foto Andrés Cubo" width="270px"></figure>
+                    <span class="name-teammate">Andrés Cubo</span>
+                    <span class="article-kind" class="">Diseñador de Productos</span>
         </li>
 
-        <li> <img src="images/imagencarla.jpg" alt="Workplace in the company" width="320" />
-          <h3>Carla Palacios <br> Diseñador De Frontend</h3>
+        <li> 
+          <figure><img src="images/imagencarla.jpg" alt="foto Carla Palacios" width="270px"></figure>
+                    <span class="name-teammate">Carla Palacios</span>
+                    <span class="article-kind" class="">Desarrolladora Frontend</span>
         </li>
 
-        <li> <img src="images/imagenmario.jpg" alt="Workplace in the company" width="320" />
-          <h3>Mario Dorado <br> Marketing</h3>
+        <li> 
+          <figure><img src="images/imagenmario.jpg" alt="foto Mario Dorado" width="270px"></figure>
+                    <span class="name-teammate">Mario Dorado</span>
+                    <span class="article-kind" class="">Marketing</span>
         </li>
 
-        <li> <img src="images/imagenpablo.jpg" alt="Workplace in the company" width="320" />
-          <h3>Pablo Mijangos <br> Diseñador IU</h3>
+        <li> 
+           <figure><img src="images/imagenpablo.jpg" alt="foto Pablo Mijangos" width="270px"></figure>
+                    <span class="name-teammate">Pablo Mijangos</span>
+                    <span class="article-kind" class="">Diseñador IU </span>
         </li>
-
       </ul>
-
     </section>
-
-
   </main>
-
-
   <!-- Page footer -->
-
-
   <footer style="background-color: #2F303A;">
 
     <address>
-
-      WebStudio <br>
-
-      Calz. Ticomán 500, Ciudad de México, CDMX, México <br />
-
+ <span class="logo_footer">WebStudio</span><br>
+            Calz. Ticomán 500, Ciudad de<br>
+            México, CDMX, México
+            <a href="mailto: info@devstudio.com">info@devstudio.com</a>
+            <a href="tel: +52 55 5529 6000">+52 55 5529 6000</a>
     </address>
-
-    <address>
-      <a href="#">info@example.com</a>
-      <a href="#">+52 55 5529 6000</a>
-    </address>
-
-
-
-
-
   </footer>
-
-
-
-
 </body>
 
 </html>
