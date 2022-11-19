@@ -1,132 +1,140 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>WebStudio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-  </head>
-  <body>
-    <header class="navbar">
-        <a href="#" class="logo">
-          <p class="page-name">WebStudio</p>
-        </a>
-        <nav>
-          
-          <label for="check_menu" id="label_check">
-            <input type="checkbox" id="check__menu">
-            <a id="estudio" href="index.html" class="nav-link">Estudio</a>
-          </label>
-          <a id="portafolio" href="portafolio.html" class="nav-link">Portafolio</a>
-          <a id="contactos" href="index.html" class="nav-link">Contactos</a>
-        </nav>
-        <figure>
-        
-          <a href="" class="nav-link">info@devstudio.com</a>
-        </figure>
-        <figure>
-        
-          <a href="" class="nav-link">+52 55 5529 6000</a>
-        </figure>
-        
-      </header>
-    <main>
-      <article class="portafolio-content">
-        <ul class="product-category">
-            <li class="category-card">Todo</li>
-            <li class="category-card">Sitios-web</li>
-            <li class="category-card">Aplicaciones</li>
-            <li class="category-card">Diseño</li>
-            <li class="category-card">Marketing</li>
-        </ul>
-        <ul class="product-cards">
-            <li>
-                <figure>
-                    <img src="images/imagentablet.jpg" alt="Imagen del portafolio">
-                        <p class="product-name">Tecnoduck</p>
-                        <p class="category-text">Sitio-web</p>
-                    </img>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="images/imagenposter.jpg" alt="Imagen del portafolio">
-                        <p class="product-name">Póster de Nueva Orleans vs Estrella Dorada</p>
-                        <p class="category-text">Diseño</p>
-                    </img>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="images/imagenrestaurante.jpg" alt="Imagen del portafolio">
-                        <p class="product-name">Restaurante Seafood</p>
-                        <p class="category-text">Aplicaciones</p>
-                    </img>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="images/imagendiadema.jpg" alt="Imagen del portafolio">
-                        <p class="product-name">Proyecto Prime</p>
-                        <p class="category-text">Marketing</p>
-                    </img>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="images/imagencajas.jpg" alt="Imagen del portafolio">
-                        <p class="product-name">Proyecto Cajas</p>
-                        <p class="category-text">Aplicaciones</p>
-                    </img>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="images/imagenpantalla.jpg" alt="Imagen del portafolio">
-                        <p class="product-name">La inspiración no tiene límites</p>
-                        <p class="category-text">Sitio-web</p>
-                    </img>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="images/imagenlibro.jpg" alt="Imagen del portafolio">
-                        <p class="product-name">Edición Limitada</p>
-                        <p class="category-text">Diseño</p>
-                    </img>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="images/imagenetiqueta.jpg" alt="Imagen del portafolio">
-                        <p class="product-name">Proyecto LAB</p>
-                        <p class="category-text">Marketing</p>
-                    </img>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="images/imagenpersona.escribiendo.jpg" alt="Imagen del portafolio">
-                        <p class="product-name">Negocio en Crecimiento</p>
-                        <p class="category-text">Aplicaciones</p>
-                    </img>
-                </figure>
-            </li>
-        </ul>
-      </article>
-    </main>
-    <footer>
-      <article>
-        <a href="#" class="logo">
-          <p class="page-name">WebStudio</p>
-        </a>
-        <address>
-          <p>Calz. Ticomán 500, Ciudad de México, CDMX, México</p>
-          <p style="color: rgba(255, 255, 255, 0.6)">info@example.com</p>
-          <p style="color: rgba(255, 255, 255, 0.6)">+52 55 5529 6000</p>
-        </address>
-      </article>
-    </footer>
-  </body>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>WebStudio</title>
+</head>
+
+<body>
+  <!-- Header section -->
+  <header>
+    <nav>
+      <!-- Logo  -->
+      <a class="logo" href="./index.html">WebStudio</a>
+      <!-- menu  -->
+      <ul class="nav-menu list">
+        <li><a class="page " href="./index.html">studio</a></li>
+        <li><a class="page current" href="./portfolio.html">portfolio</a></li>
+        <li><a class="page " href="">contact</a></li>
+      </ul>
+    </nav>
+    <!-- contacts  -->
+    <ul class="contacts-menu list">
+      <li><a class="item" href="#">info@devstudio.com</a> </li>
+      <li><a class="item" href="#">+52 55 5529 6000</a></li>
+    </ul>
+  </header>
+
+  <main>
+    <section class="section portfolio">
+      <h1>Portfolio</h1>
+      <!-- Menu tabs  -->
+      <ul class="list">
+        <li><button class="button current" type="button">All</button></li>
+        <li><button class="button" type="button">Web-Sites</button></li>
+        <li><button class="button" type="button">App</button></li>
+        <li><button class="button" type="button">Design</button></li>
+        <li><button class="button" type="button">Marketing</button></li>
+      </ul>
+
+      <!-- card list  -->
+      <ul class="list">
+        <li>
+          <a href="#" class="link">
+            <img src="images/imagentablet.jpg" alt="TecnoCrack website" width="370">
+            <h2 class="portfolio-title">TecnoCrack</h2>
+            <p class="portfolio-text">Sitio Web</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="link">
+            <img src="images/imagenposter.jpg" alt="Poster New Orlean vs Golden Star" width="370">
+            <h2 class="portfolio-title">Poster New Orlean vs Golden Star</h2>
+            <p class="portfolio-text">Design</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="link">
+            <img src="images/imagenrestaurante.jpg" alt="Seafood Restaurant App" width="370">
+            <h2 class="portfolio-title">Seafood Restaurant </h2>
+            <p class="portfolio-text">App</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="link">
+            <img src="images/imagendiadema.jpg" alt="Project Prime Marketing" width="370">
+            <h2 class="portfolio-title">Project Prime</h2>
+            <p class="portfolio-text">Marketing</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="link">
+            <img src="images/imagencajas.jpg" alt="Project Boxes App" width="370">
+            <h2 class="portfolio-title">Project Boxes</h2>
+            <p class="portfolio-text">App</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="link">
+            <img src="images/imagenpantalla.jpg" alt="Inspiration has no Borders" width="370">
+            <h2 class="portfolio-title">Inspiration has no Borders</h2>
+            <p class="portfolio-text">App</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="link">
+            <img src="images/imagenlibro.jpg" alt="Limited Edition Design" width="370">
+            <h2 class="portfolio-title">Limited Edition</h2>
+            <p class="portfolio-text">Design</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="link">
+            <img src="images/imagenetiqueta.jpg" alt="Project LAB MArketing" width="370">
+            <h2 class="portfolio-title">Project LAB</h2>
+            <p class="portfolio-text">Marketing</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="link">
+            <img src="images/imagenpersona.escribiendo.jpg" alt="Growing Bussines App" width="370">
+            <h2 class="portfolio-title">Growing Bussines</h2>
+            <p class="portfolio-text">App</p>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <a class="logo" href="">WebStudio</a>
+    <address>
+      <ul>
+        <li>
+          <a class="contact" href="#" target="_blank" rel="noopener noreferrer">Kiev, avenida. Lesy Ukrainkiy, 26</a>
+        </li>
+        <li>
+          <a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li>
+          <a class="contact" href="tel:380961111111">+52 55 5529 6000</a>
+        </li>
+      </ul>
+    </address>
+  </footer>
+</body>
+
 </html>
